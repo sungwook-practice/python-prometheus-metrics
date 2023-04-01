@@ -20,3 +20,8 @@ nerdctl -n k8s.io build \
 --platform=amd64 \
 ./
 ```
+
+# 쿠버네티스 배포 방법
+```shell
+kubectl apply -f ./deploy/deploy.yaml
+```
